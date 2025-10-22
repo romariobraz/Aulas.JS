@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+
+    <style>
+        h1 { color: blue; }
+        h2 { color: red; }
+        p { color: black; }
+        #cabecalho1 {background-color: red;}
+        #cabecalho2 {background-color: pink;}
+        .fundo-roxo {background-color: purple;}
+        .fundo-vermelho-forcado {background-color: red !important}
+        .img_class {width: 200px; height: 100px;}
+    </style>
+</head>
+<body>
+    <h1 id="cabecalho1" class="headers fundo-vermelho borda-simples">Meu html</h1>
+    <h2 id="cabecalho2" class="headers fundo-rosa borda-simples">Segundo cabeçalho</h2>
+    <p>
+        <a href="https://www.google.com" target="_blank" rel="nofollow">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png"
+        alt="Logotipo do google" class="img_class" ><br/>
+        </a>
+
+        <a href="https://www.google.com" target="_blank" rel="nofollow">Link para o google</a><br/>
+    </p>
+    <p class="fundo-roxo fundo-vermelho-forcado">
+        
+        <b>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</b><br/>
+        <i>Impedit eum adipisci consectetur fugiat qui assumenda debitis</i><br/>
+        <strong>aliquid,</strong> <em>ratione delectus</em> suscipit quasi doloribus officiis<br/>
+    </p>
+    
+    <p>
+        <ins>Sol Amarelo Maduro</ins><br/>
+        <small><del>Torna amarelo esse rato burro.</del></small><br/>
+        <s>Agora temos um texto riscado.</s><br/>
+        <u>Agora temos uma tag sublinhada.</u><br/>
+        Essa tag formata como potencia: 2<sup>2</sup> Já essa como elemento H2<sub>O</sub><br/>
+        <q>Este texto é uma citação.</q>
+    </p>
+    <p style="font-size: medium; background-color: aqua;">
+        porro incidunt blanditiis esse sint itaque!
+    </p>
+
+    <span>Olá, meu nome é Romário.</span>
+
+    <blockquote cite="fonte da citação">Agora temos um bloco de citações, fora do paragrafo.</blockquote>
+    <code>Aqui citamos um código: Console.Log("");</code>
+    <pre>
+        <code>
+            int n1;
+            int n2;
+            resultado = n1 + n2;
+
+            Graças ao <pre></pre>, temos um texto pré formatado.
+            Ele computa inclusive as quebras de linhas e espaços.   
+        </code>
+    </pre>
+
+    <span> 
+        Aqui temos um container genérico inline, sem conteúdo semântico.<br/>
+        Isto surgere que eu posso puxar atributos do css pelo style<br/>
+        que o conteúdo seja sempre ajustado a linha.<br/>
+    </span>
+    <br/>
+    <div> 
+        Aqui já temos outro container genérico, porém com conteúdo semântico.<br/>
+        E o conteúdo não é inline.<br/>
+        Caso eu use a tag p, por exemplo, meu conteúdo irá distorcer.<br/>
+    </div>
+</body>
+</html>
